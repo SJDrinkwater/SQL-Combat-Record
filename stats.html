@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Edit Statistics</h1>
+    <div class = "center-logo">
+      <form action="update_stats.php" method="post">
+        <label for="wins">Wins:</label>
+        <input type="number" id="wins" name="wins">
+        <br>
+        <label for="losses">Losses:</label>
+        <input type="number" id="losses" name="losses">
+        <br>
+        <label for="kills">Kills:</label>
+        <input type="number" id="kills" name="kills">
+        <br>
+        <label for="deaths">Deaths:</label>
+        <input type="number" id="deaths" name="deaths">
+        <br>
+        <label for="headshots">Headshots:</label>
+        <input type="number" id="headshots" name="headshots">
+        <br>
+        <input type="submit" value="Update Stats">
+      </form>
+    </div>
+</body>
+</html>
